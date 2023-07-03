@@ -1,12 +1,14 @@
 /**
- * Creates a function that negates the result of the predicate `func`. The
- * `func` predicate is invoked with the `this` binding and arguments of the
+ * Creates a function that negates the result of the predicate `func`. 
+ * 번역 : 서술된 'func'의 결과를 제외한 함수를 만든다.
+ * The `func` predicate is invoked with the `this` binding and arguments of the
  * created function.
+ * 번역 : 서술된 'func'는 생성된 함수의 'this' 바인딩과 인수로 호출된다.
  *
  * @since 3.0.0
  * @category Function
- * @param {Function} predicate The predicate to negate.
- * @returns {Function} Returns the new negated function.
+ * @param {Function} predicate The predicate to negate.제외할 함수 서술
+ * @returns {Function} Returns the new negated function. 
  * @example
  *
  * function isEven(n) {
